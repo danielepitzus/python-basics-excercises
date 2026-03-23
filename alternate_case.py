@@ -1,11 +1,11 @@
-frase = input("Inserisci: ")
+phrase = input("Enter a phrase: ")
 
-nuova_frase = ""
-for i in range(len(frase)):
+new_phrase = ""
+for i in range(len(phrase)):
     if i % 2 ==  0:
-        nuova_frase += frase[i].upper()
+        new_phrase += phrase[i].upper()
     else:
-        nuova_frase += frase[i]
+        new_phrase += phrase[i]
 
-print(nuova_frase)
+print(new_phrase)
 
